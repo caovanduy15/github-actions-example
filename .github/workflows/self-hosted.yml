@@ -31,7 +31,6 @@ jobs:
         run: |
           sudo apt-get install tmate
           tmate
-          echo $(tmate show-messages)
         
       - shell: bash
         env:
